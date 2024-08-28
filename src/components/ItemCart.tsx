@@ -1,5 +1,6 @@
 import { Stack } from "react-bootstrap";
 import storeItems from "../data/items.json";
+import { formatCurrency } from "../utilities/formatCurrency";
 
 type ItemCartProps = {
   id: number;
@@ -24,6 +25,9 @@ const ItemCart = ({ id, quantity }: ItemCartProps) => {
               {quantity} x
             </span>
           )}
+        </div>
+        <div className="text-muted" style={{ fontSize: ".75rem" }}>
+          {formatCurrency(item?.price)}
         </div>
       </div>
     </Stack>
