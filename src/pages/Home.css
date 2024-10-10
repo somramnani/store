@@ -7,16 +7,16 @@ body {
 }
 
 .hero {
-  background-image: url("imgs/hero.jpg"); /* Replace with your actual image path */
+  background-image: url("imgs/hero.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
   display: flex;
-  align-items: flex-start; /* Align items to the start (top) of the section */
+  align-items: flex-start;
   justify-content: center;
-  padding-top: 1%; /* Adjust this value to move the text lower or higher */
+  padding-top: 1%;
 }
 
 .overlay {
